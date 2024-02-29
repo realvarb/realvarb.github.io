@@ -1,0 +1,29 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+}
+
+a {
+    text-decoration: none;
+}
+
+#content {
+    margin: 150px 0 0 15%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    font-size: 4em;
+    margin-bottom: 0.2rem;
+    background-image: linear-gradient(90deg, #353535, #fff);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.description {
+    font-size: 1em;
+    color: #9B9EA3;
+    line-height: 0.75em;
+}
